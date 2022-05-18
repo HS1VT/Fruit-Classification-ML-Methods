@@ -1,0 +1,3 @@
+First, using the same technique as we have used in part (b), we have extracted the R,G and B components from all the images using rgb.py into fruits.csv. Then we compute the average r, g and b values for all the classes. Then, we take a test image and calculate it's r, g and b values and form a vector out of it, and we form a vector out of all the classes and then we calculate the distance of the test image vector from the vectors of all classes and then we take the closest 11 classes and then according to the majority, we declare the prediction.
+
+We can break ties by taking odd number of closest neighbors to choose from. Like in 11 nearest neighbors, there will not be any tie.
